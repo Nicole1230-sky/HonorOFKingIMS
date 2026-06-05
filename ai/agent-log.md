@@ -15,3 +15,13 @@ Implemented the abstract base class `Person.java` under `src/model`. Defined com
 Approved the field definitions and access modifiers. Confirmed the use of an abstract class for shared behavior among players, heroes, and admins.
 **Related commits:**
 - [AI-Implementation] add Person abstract class with basic fields
+
+
+## Implementation Agent
+**Date:** 2026-06-05
+**Main contribution:**
+Refactored Player model to remove inheritance from Person and resolve compilation errors. Player now directly manages name and age fields. All business logic (rank, coins, wins) implemented and verified.
+**Human decision:**
+Approved simplifying Player to ensure stability before continuing with Hero model.
+**Related commits:**
+- [AI-Implementation] stabilize Player model and prepare for Hero
