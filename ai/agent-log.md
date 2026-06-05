@@ -25,3 +25,12 @@ Refactored Player model to remove inheritance from Person and resolve compilatio
 Approved simplifying Player to ensure stability before continuing with Hero model.
 **Related commits:**
 - [AI-Implementation] stabilize Player model and prepare for Hero
+
+## Implementation Agent
+**Date:** 2026-06-05
+**Main contribution:**
+Implemented Hero model with role, level, hp, attack, and defense. Added level-up logic and display method. Hero is designed to be owned by Player.
+**Human decision:**
+Approved Hero as a standalone model; no inheritance used.
+**Related commits:**
+- [AI-Impleme
