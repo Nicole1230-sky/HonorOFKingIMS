@@ -64,7 +64,33 @@ The class is now 100% self-contained. It compiles successfully in any standard J
 **Human Decision:**
 Approved the use of a simplified, standalone Admin model to finally resolve the blocking issue.
 
+## Implementation Agent Log: Equipment Model
 
+**Date:** 2026-06-05
+
+**Task:**
+Implement the Equipment class as part of the game system.
+
+**Constraints Enforced by User:**
+- Do not modify other files (Person, Player, etc.).
+- Use Git only for submission.
+- No GitHub web UI.
+- All code written in Eclipse.
+
+**Design Decisions:**
+- Equipment is a standalone POJO (Plain Old Java Object).
+- Contains attributes: id, name, type, price, bonuses.
+- Includes business logic for upgrading equipment.
+- No inheritance, no external dependencies.
+
+**Files Created:**
+- src/model/Equipment.java
+
+**Result:**
+Equipment model completed successfully and ready for integration.
+
+**Human Decision:**
+Approved Equipment model implementation under strict constraints.
 
 
 
