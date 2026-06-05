@@ -4,7 +4,7 @@
 Generated the skeleton code for the `Person` abstract class, including attributes (`id`, `name`), constructor, getters/setters, and the abstract method `displayInfo()`.
 **Human decision:**
 I reviewed the code, confirmed it follows Java naming conventions, and pasted it into `src/model/Person.java`. I also ensured the class is properly structured for inheritance by `Player` and `Admin`.
-**Related commits:**
+**Related commits:**add Hero model with atats and level-up
 - [AI-Implementation] add abstract Person class
 
 ## Implementation Agent
@@ -33,4 +33,13 @@ Implemented Hero model with role, level, hp, attack, and defense. Added level-up
 **Human decision:**
 Approved Hero as a standalone model; no inheritance used.
 **Related commits:**
-- [AI-Impleme
+- [AI-Implementation] add Hero model with stats and level-up
+
+## Implementation Agent
+**Date:** 2026-06-05
+**Main contribution:**
+Linked Player and Hero models. Player now owns multiple Hero instances using List<Hero>. Added methods to add and display heroes.
+**Human decision:**
+Approved composition-based design over inheritance.
+**Related commits:**
+- [AI-Implementation] link Player and Hero via List
