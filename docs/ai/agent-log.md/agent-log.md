@@ -91,6 +91,38 @@ Equipment model completed successfully and ready for integration.
 
 **Human Decision:**
 Approved Equipment model implementation under strict constraints.
+# Agent Log
+
+## Architect Agent
+Main contribution:
+Designed Team and MatchRecord class structures and their relationships with Player and Hero.
+
+Human decision:
+Chose composition over inheritance for Team–Player relationship.
+
+Related commits:
+- [AI-Architect] design Team and MatchRecord
+
+## Implementation Agent
+Main contribution:
+Implemented Team.java and MatchRecord.java.
+
+Human decision:
+Kept logic minimal and readable.
+
+Related commits:
+- [AI-Implementation] implement Team.java
+- [AI-Implementation] implement MatchRecord.java
+
+## Testing/Reviewer Agent
+Main contribution:
+Identified risk of duplicate players being added to a team.
+
+Human decision:
+Added duplicate check manually in Team.addMember().
+
+Related commits:
+- [Fix] prevent duplicate players in Team
 
 
 
