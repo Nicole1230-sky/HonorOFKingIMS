@@ -1,0 +1,7 @@
+* [AI-Implementation] implement Team.java
+* [AI-Implementation] implement MatchRecord.java
+* [AI-Architect] design Team and MatchRecord
+* [Fix] prevent duplicate players in Team
+* [Docs] add prompts for Team and MatchRecord
+* [AI-Documentation] add reflection.md
+* [Test] add test cases for Team and MatchRecord
