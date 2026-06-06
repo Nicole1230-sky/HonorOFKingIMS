@@ -1,7 +1,35 @@
-* [AI-Implementation] implement Team.java
+* Delete .project
+* Delete .classpath
+* Delete .settings directory
+* [Human] add project plan.md
+* Delete src/docs/plan.md
+* Update design.md
+* Create README.md
+* Delete README.md
+* Delete docs/readme.md
+* Delete docs/ai/prompts.md/提问记录.docx
+* Update README.md
+* Create git-history.txt
+* Update README.md
+* Create test-cases.md
+* Create reflection.md
+* Create prompts.md
+* Delete docs/ai/prompts.md2
+* Delete ai/agent-log.md
+* Create prompts.md2
+* Update agent-log.md
 * [AI-Implementation] implement MatchRecord.java
-* [AI-Architect] design Team and MatchRecord
-* [Fix] prevent duplicate players in Team
-* [Docs] add prompts for Team and MatchRecord
-* [AI-Documentation] add reflection.md
-* [Test] add test cases for Team and MatchRecord
+* Create agent-log.md
+* [AI-Implementation] implement Team.java
+* Delete agent-log.md
+* Delete Equipment.java
+* Add files via upload
+* Add files via upload
+* docs: upload agent-log.md
+* feat: upload all java files manually
+* fix: stabilize Admin model and update AI documentation
+* feat: link Player and Hero with List and update AI docs
+* feat: add Hero model and update AI documentation
+* feat: stabilize Player model and update AI documentation
+* feat: add Player model and update AI log
+* clean: remove default package from src
